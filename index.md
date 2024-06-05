@@ -1,9 +1,6 @@
 <html lang="en">
 <head>
 	<title>MIAW</title>
-</head>
-<body >
-	Hello
 	<script type='text/javascript'>
 		function initEmbeddedMessaging() {
 			console.log('initEmbeddedMessaging');
@@ -27,4 +24,8 @@
 		};
 	</script>
 	<script type='text/javascript' src='https://legrandav--echochat.sandbox.my.site.com/ESWGithub1717396104980/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
+</head>
+<body >
+	Hello
+	
 </body>
