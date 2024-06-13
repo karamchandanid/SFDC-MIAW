@@ -1,6 +1,13 @@
 <html lang="en">
 <head>
 	<title>MIAW</title>
+	<script>
+                window.addEventListener("onEmbeddedMessagingReady", (evt) => {
+                    // The JavaScrip API is ready for calls.
+                    console.log("Received the onEmbeddedMessagingReady event…");
+                    console.log(">>",evt);
+                });
+            </script>
 	<script type='text/javascript'>
 		function initEmbeddedMessaging() {
 			console.log('initEmbeddedMessaging');
